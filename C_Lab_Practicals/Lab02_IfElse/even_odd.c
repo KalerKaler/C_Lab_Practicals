@@ -2,14 +2,12 @@
 #include <stdio.h>
 
 int main() {
-    int number;
-    scanf("%d", &number);
+    
+    int *arr[];
+    arr[0] = 4;
+    arr[2] = 88;
+    for (int i = 0; i < 3; i++) {
+        printf("%d", arr[i]);
+    }
 
-    if (number % 2 == 0) {
-        printf("The number %d is even", number);
-    }
-    else {
-        printf("The number %d is odd", number);
-    }
-    return 1;
 }
