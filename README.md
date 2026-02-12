@@ -13,5 +13,5 @@ Lab01 - Basics
 Lab02 - Decision Making
 Lab03 - Loops
 
-##Result
+## Result
 Thus, the student successfully created a GitHub repository and uploaded C programming lab practicals using Git Bash.
